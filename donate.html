@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>NGOConnect</title>
+    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <style>
+        .logo img {
+            width: 40px; /* Adjust the width as needed */
+        }
+        body {
+            font-family: 'Ubuntu', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .donation-container {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-group button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+
+        .form-group button:hover {
+            background-color: #0056b3;
+        }
+
+        .payment-logos {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .payment-logos i {
+            font-size: 2rem;
+            margin-right: 10px;
+        }
+
+        .payment-logos i:last-child {
+            margin-right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <style>
+        .hover-panel {
+          position: relative;
+          display: inline-block;
+        }
+        .panel-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          width: 140px;
+          border-radius: 8px; /* Adjust border-radius to change corner curve */
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+          padding: 5px;
+        }
+        .hover-panel:hover .panel-content {
+          display: block;
+        }
+      </style>
+    <header class="continer-fluid ">
+        <div  class="header-top">
+            <div class="container">
+                <div class="row col-det">
+                    <div class="col-lg-6 d-none d-lg-block">
+                        <ul class="ulleft">
+                            <li>
+                                <i class="far fa-envelope"></i>
+                                help@ngoconnect.com
+                                <span>|</span></li>
+                            <li>
+                                <i class="fas fa-phone-volume"></i>
+                                +91 7666675433</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 folouws">
+                      
+                        <ul class="ulright">
+                           <li> <small>Folow Us </small>:</li>
+                            <li>
+                                <i class="fab fa-facebook-square"></i>
+                            </li>
+                            <li>
+                                <i class="fab fa-twitter-square"></i>
+                            </li>
+                            <li>
+                                <i class="fab fa-instagram"></i>
+                            </li>
+                            <li>
+                                <i class="fab fa-linkedin"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 d-none d-md-block col-md-6 btn-bhed">
+                        <div class="container mt-5">
+                            <div class="hover-panel">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="menu-jk" class="header-bottom">
+            <div class="container">
+                <div class="row nav-row">
+                    <div class="col-lg-3 col-md-12 logo">
+                        <a href="index.html">
+                            <img src="assets/images/logo.jpg" alt="" style="width: 50%; height: 70%;">
+                            <a data-toggle="collapse" data-target="#menu" href="#menu"><i class="fas d-block d-lg-none  small-menu fa-bars"></i></a>
+                        </a>
+    
+                    </div>
+                    <div id="menu" class="col-lg-9 col-md-12 d-none d-lg-block nav-col">
+    
+    
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </header>
+    <div class="donation-container">
+        <h2>Donate to NGOs</h2>
+        <form>
+            <div class="form-group">
+                <label for="amount">Amount to Donate</label>
+                <input type="number" id="amount" name="amount" min="0" step="1" required>
+            </div>
+            <div class="form-group">
+                <label for="ngoCode">NGO Code</label>
+                <input type="text" id="ngoCode" name="ngoCode" required>
+            </div>
+    
+        </form>
+        <div class="payment-logos">
+            <i class="fab fa-cc-visa"></i>
+            <i class="fab fa-cc-mastercard"></i>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <h2>About Us</h2>
+                    <p>
+                        
+                    </p>
+                    <p> </p>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <h2>Useful Links</h2>
+                    <ul class="list-unstyled link-list">
+                        <li><a ui-sref="about" href="#/about">About us</a><i class="fa fa-angle-right"></i></li>
+                        <li><a ui-sref="portfolio" href="#/portfolio">Portfolio</a><i class="fa fa-angle-right"></i></li>
+                        <li><a ui-sref="products" href="#/products">Latest jobs</a><i class="fa fa-angle-right"></i></li>
+                        <li><a ui-sref="gallery" href="#/gallery">Gallery</a><i class="fa fa-angle-right"></i></li>
+                        <li><a ui-sref="contact" href="#/contact">Contact us</a><i class="fa fa-angle-right"></i></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-12 map-img">
+                    <h2>Contact Us</h2>
+                    <address class="md-margin-bottom-40">
+                        Bennett Univeristy <br>
+                        
+                        Noida, IND <br>
+                        Phone: +91 9159669599 <br>
+                        Email: <a href="help@ngoconnect.com" class="">info@bluedart.in</a><br>
+                        Web: <a href="index.html" class="">www.ngoconnect.in</a>
+                    </address>
+
+                </div>
+            </div>
+            
+            
+            <div class="nav-box row clearfix">
+                <div class="inner col-md-9 clearfix">
+                    <ul class="footer-nav clearfix">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about_us.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="services.html">Servies</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact_us.html">Contact</a></li>
+                    </ul>
+
+                  
+                </div>
+                  <div class="donate-link col-md-3"><a href="donate.html" class="btn btn-primary "><span class="btn-title">Donate Now</span></a></div>
+            </div>
+            
+        </div>
+        
+
+    </footer>
+</body>
+
+</html>
